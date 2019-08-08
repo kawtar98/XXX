@@ -1,12 +1,13 @@
-#include<stdio.h>
+
 #include<unistd.h>
 
  int main ()
  {
-       int z = 1 ;
-       char c ;
-       write(z, &c ,1);
+       
+       char z ;
+       write(1,'z',1);
 
    return (0);
 
  }
+
