@@ -1,6 +1,6 @@
 
 
-int ft_swap(int *a , int *b)
+void ft_swap(int *a , int *b)
 
 {   
 	int i;
@@ -11,15 +11,4 @@ int ft_swap(int *a , int *b)
 
 }	
 
-
-int main()
- 
-{
-    int a;
-    int b;
-    
-     ft_swap(&a , &b);
-     printf("%d,%d\n", a ,b);
-     return (0);  
-}	
 
